@@ -1,0 +1,22 @@
+{
+  "name": "pedidos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^6.6.2",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "less": "^4.1.3"
+  }
+}
